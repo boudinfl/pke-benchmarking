@@ -1,0 +1,4 @@
+notebook
+ipywidgets
+git+https://github.com/boudinfl/pke.git
+datasets
