@@ -44,15 +44,30 @@ We use the models implemented in the [Python Keyphrase Extraction (`pke`)](https
 
 ## Results
 
+Machine: 3,2 GHz Intel Core i5 4-cores
+
 ### inspec
 | Model | it/s |  F@5 | F@10 |
 | :---- | ----:| ---: | ---: |
-| FirstPhrases  | 608.2 | 24.06 | 28.64 |
-| TextRank  | 404.6 | 27.05 | 34.23 |
-| SingleRank  | 404.6 | 27.83 | 34.21 |
-| TopicRank  | 288.9 | 24.47 | 28.60 |
-| PositionRank  | 392.7 | 28.07 | 33.23 |
-| MultipartiteRank  | 212.1 | 24.72 | 29.61 |
-| TfIdf  | 638.2 | 28.78 | 34.96 |
-| TopicalPageRank  | 19.0 | 28.25 | 34.00 |
+| FirstPhrases  | 301.9 | 24.04 | 28.61 |
+| TextRank  | 164.1 | 27.07 | 34.20 |
+| SingleRank  | 176.9 | 27.83 | 34.18 |
+| TopicRank  | 119.1 | 24.45 | 28.60 |
+| PositionRank  | 167.3 | 28.04 | 33.20 |
+| MultipartiteRank  | 92.2 | 24.69 | 29.59 |
+| TfIdf  | 309.4 | 28.75 | 34.94 |
+| TopicalPageRank  | 20.6 | 28.23 | 33.97 |
+
+## semeval-2010-pre
+| Model | it/s |  F@5 | F@10 |
+| :---- | ----:| ---: | ---: |
+| FirstPhrases  | 190.3 | 13.96 | 14.94 |
+| TextRank  | 121.6 | 9.32 | 13.42 |
+| SingleRank  | 116.9 | 11.55 | 16.29 |
+| TopicRank  | 83.3 | 12.07 | 14.46 |
+| PositionRank  | 115.7 | 12.54 | 17.32 |
+| MultipartiteRank  | 60.9 | 13.84 | 15.61 |
+| TfIdf  | 193.5 | 13.20 | 16.08 |
+| TopicalPageRank  | 25.4 | 11.53 | 16.32 |
+
 
