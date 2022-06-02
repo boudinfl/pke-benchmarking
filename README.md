@@ -49,25 +49,31 @@ Machine: 3,2 GHz Intel Core i5 4-cores
 ### inspec
 | Model | it/s |  F@5 | F@10 |
 | :---- | ----:| ---: | ---: |
-| FirstPhrases  | 301.9 | 24.04 | 28.61 |
-| TextRank  | 164.1 | 27.07 | 34.20 |
-| SingleRank  | 176.9 | 27.83 | 34.18 |
-| TopicRank  | 119.1 | 24.45 | 28.60 |
-| PositionRank  | 167.3 | 28.04 | 33.20 |
-| MultipartiteRank  | 92.2 | 24.69 | 29.59 |
-| TfIdf  | 309.4 | 28.75 | 34.94 |
-| TopicalPageRank  | 20.6 | 28.23 | 33.97 |
+| FirstPhrases  | 296.3 | 24.04 | 28.61 |
+| TextRank  | 160.8 | 27.07 | 34.20 |
+| SingleRank  | 179.9 | 27.83 | 34.18 |
+| TopicRank  | 123.7 | 24.45 | 28.60 |
+| PositionRank  | 166.5 | 28.04 | 33.20 |
+| MultipartiteRank  | 93.7 | 24.69 | 29.59 |
+| TfIdf  | 300.1 | 28.75 | 34.94 |
+| TopicalPageRank  | 20.3 | 28.23 | 33.97 |
+| YAKE  | 46.3 | 29.46 | 33.01 |
+| KPMiner  | 312.2 | 26.80 | 33.47 |
+| Kea  | 237.0 | 28.70 | 33.54 |
 
 ## semeval-2010-pre
 | Model | it/s |  F@5 | F@10 |
 | :---- | ----:| ---: | ---: |
-| FirstPhrases  | 190.3 | 13.96 | 14.94 |
-| TextRank  | 121.6 | 9.32 | 13.42 |
-| SingleRank  | 116.9 | 11.55 | 16.29 |
-| TopicRank  | 83.3 | 12.07 | 14.46 |
-| PositionRank  | 115.7 | 12.54 | 17.32 |
-| MultipartiteRank  | 60.9 | 13.84 | 15.61 |
-| TfIdf  | 193.5 | 13.20 | 16.08 |
-| TopicalPageRank  | 25.4 | 11.53 | 16.32 |
+| FirstPhrases  | 188.7 | 13.96 | 14.94 |
+| TextRank  | 116.9 | 9.32 | 13.42 |
+| SingleRank  | 115.7 | 11.55 | 16.29 |
+| TopicRank  | 72.6 | 12.07 | 14.46 |
+| PositionRank  | 94.1 | 12.54 | 17.32 |
+| MultipartiteRank  | 55.1 | 13.84 | 15.61 |
+| TfIdf  | 190.3 | 13.20 | 16.08 |
+| TopicalPageRank  | 24.8 | 11.53 | 16.32 |
+| YAKE  | 36.5 | 15.73 | 17.97 |
+| KPMiner  | 180.0 | 12.26 | 17.22 |
+| Kea  | 154.6 | 14.32 | 16.89 |
 
 
